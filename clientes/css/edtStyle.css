@@ -1,0 +1,18 @@
+.container {
+    width: 400px;
+    height: 550px;
+    background: #009933;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.box {
+    width: 400px;
+    height: 485px;
+    background: #009933;
+}    
+span{
+    color:white;
+    font-size: 18px;
+}

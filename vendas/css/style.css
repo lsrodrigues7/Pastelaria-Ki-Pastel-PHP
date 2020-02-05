@@ -1,0 +1,31 @@
+/*layout*/
+body{background-color: #eee; font-family: 'Ubuntu', sans-serif;}
+header h1{font-size: 0em;}
+p{text-align:center;}
+a{text-decoration: none; font-weight: 800; font-size: 1em; color: #333; margin-left: 20px;padding: 1% 2%;}
+a:hover{background-color: #333; color: #fff; }
+
+article{background-color: #fff; width: 100%; min-height: 600px; max-height: 1200px;}
+article h1{text-align:center ; font-size: 2em; font-weight: 800; color: #111; margin-top: 1.2%;}
+
+footer{width: 100%; height: auto;}
+footer h1{font-size: 0em;}
+footer h3{font-size: 1em; text-align:center;}
+
+/*Formulários*/
+
+article label{margin: 0% 16%; font-size: 1.2em; font-weight: bold;}
+article input[type=date]{width: 60%; margin: 0% 16%; padding: 1% 2%;}
+article input[type=text]{width: 60%; margin: 0% 16%; padding: 1% 2%;}
+article button{margin: 1% 16%; padding: 1% 2%;}
+
+/*Tabela*/
+table {width: 80%; margin: 2% 10%;}
+thead tr{background-color: #eee;}
+tbody td{padding: 1% 2%;}
+tbody td .link_edit{background-color: #09c; color: #fff; padding: 5% 10% !important;}
+tbody td .link_edit:hover{background-color: #006b8e; color: #fff;}
+tbody td .link_del{background-color: #900; color: #fff; padding: 5% 10% !important;}
+tbody td .link_del:hover{background-color: #6b0000; color: #fff;}
+tbody td .link_pagar{background-color: #2b741b; color: #fff; padding: 5% 10% !important;}
+tbody td .link_pagar:hover{background-color: #1e5112; color: #fff;}
